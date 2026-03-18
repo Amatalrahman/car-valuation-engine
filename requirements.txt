@@ -1,0 +1,23 @@
+# ─────────────────────────────────────────────────────────────────
+#  AutoValuate — Car Price Prediction
+#  Streamlit Cloud requirements
+#
+#  Deploy steps:
+#    1. Push this repo to GitHub
+#    2. Go to https://share.streamlit.io → "New app"
+#    3. Set Main file path: app.py
+#    4. Streamlit Cloud will install these automatically
+# ─────────────────────────────────────────────────────────────────
+
+# ── Core app ─────────────────────────────────────────────────────
+streamlit>=1.32.0
+
+# ── Data & ML ────────────────────────────────────────────────────
+pandas>=2.1.0
+numpy>=1.26.0
+scikit-learn>=1.3.0
+lightgbm>=4.1.0
+joblib>=1.3.0
+
+# ── Visualisation ────────────────────────────────────────────────
+plotly>=5.18.0
